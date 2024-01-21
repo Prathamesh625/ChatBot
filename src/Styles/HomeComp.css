@@ -1,0 +1,39 @@
+/* .display-grid{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-button{
+  display: flex;
+  margin-bottom: -1em;
+  margin-top: 2em;
+  
+}
+.nav-button p{
+  margin-left: 1em;
+  border: 2px solid black;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 0.2em;
+}
+.nav-button p:last-child{
+  background-color: blueviolet;
+}
+
+button{
+  width: 20px;
+}
+*/
+
+.display-flex{
+  display: flex;
+margin-left:0;
+margin-right: 0;
+} 

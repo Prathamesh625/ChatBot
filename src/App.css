@@ -1,0 +1,28 @@
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Container{
+
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+body{
+
+  background-color: #EDF0F7;
+  /* background-image: url("./Styles/background.jpeg"); */
+  background-size:contain;
+}
+
+
+@media screen and (max-width:600px) {
+  .Container {
+
+    margin: 0;
+  }
+}

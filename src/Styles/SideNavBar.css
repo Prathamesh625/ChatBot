@@ -1,0 +1,72 @@
+.side-nav-bar{
+   
+ position: fixed;
+ top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+height: 100vh;
+    background-color: white;
+color:black;
+animation: sidebar 2s ;
+}
+
+
+.chatbot-img{
+display: block;
+margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+    /* border: 5px solid black; */
+    border-radius: 100%;
+}
+
+.animate-sidebar{
+
+
+animation: animate-sidebar 2s;
+
+}
+
+
+.mountain {
+    animation-name:sidebar;
+}
+
+@keyframes sidebar {
+    from {
+  width: 0;
+       display: none;
+
+    }
+
+  
+
+
+    to {
+       width: 200px;
+        
+    }
+
+
+
+
+}
+
+@keyframes animate-sidebar {
+    from {
+font-size: 0;
+       
+    }
+
+    to {
+     font-size: medium;
+
+    }
+
+
+
+
+}

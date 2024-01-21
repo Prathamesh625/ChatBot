@@ -1,0 +1,55 @@
+ .chat-bot-space{
+
+/* padding: 10px; */
+  
+    height: 85vh;
+    width: 100%;
+    /* margin-left: 10%; */
+
+}
+
+/*
+.message-box{
+position:relative;
+height: 60px;
+border-top: 2px solid rgb(245, 240, 240);
+background-color: white;
+display: flex;
+top:5px;
+align-items: center; 
+z-index: 1;
+}
+
+input{
+    height: 40px;
+    margin-left: 10px;
+    width: 90%;
+    text-indent: 10px;
+    
+
+}
+
+.equal-space-icon{
+margin-left: 10px;
+}
+
+.display-flex-chat-space{
+display: flex;
+justify-content: space-between;
+padding: 10px 10px 10px 10px;
+border-bottom: 2px solid rgb(245, 240, 240);
+}
+
+.chat-box{
+    overflow-y: scroll;
+    height: 70vh;
+    padding: 10px;
+}
+
+
+.modal{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+} */

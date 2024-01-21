@@ -1,0 +1,146 @@
+h4{
+    font-weight: 500;
+    color: rgb(62, 102, 248);
+}
+
+.user-container-space {
+
+    width: 80%;
+    margin-top: 80px;
+  
+}
+
+.display {
+
+    display: flex;
+
+}
+
+
+
+
+.manage-users-search-box {
+
+
+   
+    padding: 20px;
+    margin: 20px;
+ 
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    box-shadow: 0 0 1px 1px rgb(209, 203, 203);
+    background-color: white;
+
+}
+
+.manage-users-list {
+  
+
+    padding: 20px;
+    margin: 20px;
+
+    box-shadow: 0 0 1px 1px rgb(209, 203, 203);
+    background-color: white;
+
+}
+
+
+
+
+.manage-users-search-box input {
+
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+.manage-users-search-box .user-form button{
+    width: 100%;
+} 
+
+.manage-users-search-box .user-form {
+   display: flex;
+   width: 100%;
+
+}
+
+
+
+.manage-users-search-box p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+table{
+
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+th{
+    /* background-color: rgb(184, 225, 253); */
+    background-color: rgb(224, 243, 253);
+    padding: 10px;
+    font-weight: 500;
+}
+td {
+
+     padding: 10px; 
+    text-align: center; 
+    background-color: rgb(247, 250, 252);
+
+}
+
+.user-input-spot-change{
+    padding: 5px; 
+    width: 100%; 
+    border: none;
+    text-align: center;
+    background-color: rgb(247, 250, 252);
+}
+
+
+
+
+form  input{
+
+margin: 10px;
+
+text-indent: 10px;
+}
+
+
+
+.scroll{
+    overflow-x: scroll;
+}
+
+.container-2{
+margin-top: 80px;
+width: 70%;
+}
+
+@media screen and (max-width:800px) {
+    .user-container-space {
+
+        width: 100%;
+        margin-top: 80px;
+
+    }
+
+        .display {
+    
+            display: block;
+    
+        }
+
+                .manage-users-search-box .user-form {
+              
+                    width: 100%;
+                    flex-direction: column;
+        
+                }
+}

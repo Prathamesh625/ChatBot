@@ -1,0 +1,73 @@
+.docs-container-space {
+
+    width: 80%;
+    margin-top: 80px;
+
+}
+
+.display {
+
+    display: flex;
+
+}
+
+.scroll {
+    overflow-x: scroll;
+}
+
+.manage-docs-search-box{
+    /* width: 100%; */
+    /* height: 300px; */
+    
+    padding: 20px;
+    margin:20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+box-shadow: 0 0 1px 1px rgb(209, 203, 203);
+    background-color: white;
+    
+}
+
+
+.manage-docs-search-box .input-file{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.manage-docs-search-box p {
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+
+table {
+
+    width: 100%;
+
+}
+
+th{
+    background-color: rgb(231, 228, 242);
+}
+td {
+    /* border: 1px solid;
+    padding: 10px;
+    text-align: center; */
+
+}
+
+.container-2 {
+    margin-top: 80px;
+    width: 70%;
+
+}
+
+@media screen and (max-width:600px) {
+.docs-container-space {
+
+        width: 100%;
+        margin-top: 80px;
+
+    }
+}
